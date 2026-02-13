@@ -19,5 +19,6 @@ jobs:
 
     - name: Build production image
       run: make build-app
+      
     - name: Push image
       run: make push-app
